@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AddTaskComponent {
 
+  constructor() {}
+
+  title: string = 'Adding tasks in this component';
+
 }
